@@ -122,7 +122,7 @@ changeVideoButton.addEventListener('click', () => {
 
 document.addEventListener('scroll', () => {
   const virtualWindow = document.querySelector('.virtual-window');
-  const journalingSection = document.getElementById('jornaling text');
+  const journalingSection = document.getElementById('jornaling-text');
 
   // Get the bounding rectangle of the journaling section
   const journalingRect = journalingSection.getBoundingClientRect();
@@ -154,5 +154,5 @@ document.addEventListener('scroll', () => {
     virtualWindow.style.top = '20px';
     virtualWindow.style.left = '50%';
     virtualWindow.style.transform = 'translateX(-50%)';
-  }
-});
+  }});
+
