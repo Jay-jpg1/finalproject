@@ -1,3 +1,26 @@
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+.skip a {
+  position: absolute;
+  top: -40px;
+}
+
+/* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
+.skip a:focus {
+  top: 20px;
+}
+
+/* Step 3: Write selector/rule property to style all elements when in focus*/
+:focus {
+  border: 2px solid #000;
+}
+
 /*navigation bar*/
 nav ul li {
   display: inline;
